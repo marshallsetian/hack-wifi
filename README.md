@@ -1,5 +1,5 @@
-# aircrack-tutorial
-buat pribadi catatan run cmd jika lupa
+# hacking-wifi 
+sekedar catatan jika lupa 
 
 TUTORIAL WIFI CRACKING 
 
