@@ -39,7 +39,7 @@ sudo airodump-ng wlan0
 ```
 jangan lupa untuk mencatatat bssid target dan channelnya...
 </p>
-catat bssid target contoh  : 98:F4:28:47:85:C8 >>> berada di channel : 11
+catat bssid target contoh  : 98:F4:28:47:85:C8 >>> berada di channel : 11</p>
 <p>
 jika sudah kita saring/filter single target memakai perintah :
 
@@ -64,41 +64,54 @@ ketikkan :
 sudo aireplay-ng --deauth 0 -a 98:F4:28:47:85:C8 wlan0 
 ```
 jika berhasill sniff jaringan ada yg berjabat tangan
-otomatis di terminal pertama akan ada tulisan (wpa handsake)
-atau tulisan AEPOL / apa ya saya lupa ...
+otomatis di terminal pertama akan ada tulisan </p>
+(wpa handsake)
+atau tulisan AEPOL / apa ya saya lupa ...</p>
 itu berarti program sdh berhasil mendapatkan jabat-tangannya.
+</p>
 harap di ingat kita hanya butuh 2 tab terminal yg berjalan..
-
+</p>
 silahkan close semua program di terminalnya,
-bisa menggunakan ctrl+c 
+</p>
+bisa menggunakan >>> ctrl+c 
+</p>
 sekarang waktunya ganti program aircrack
+</p>
 perlu diketahui file yg tersimpan biasanya tersimpan di path HOME/
+</p>
 untuk mengetahui tentang informasi hasil snif tsb 
+</p>
 bukalah file - contoh file hack1.pap dengan program wireshark
+</p>
 bisa dilakukan dengan terminal di path nya:
+
 ```bash
 wireshark hack1-01.cap
 ```
 atau bisa membuka dengan doble click di filenya
+</p>
 opsional : untuk menghidupkan jaringan internet seperti semula :
+
 ```bash
 sudo airmon-ng stop wlan0 - monitor disable
 ```
 sekarang kita akan menjalankan program AIRCRACK
+</p>
 ketikkan :
+
 ```bash
 sudo aircrack-ng hack1-01.cap -w /usr/share/wordlists/rockyou.txt
 ```
 gantilah nama file hack1-01.cap dengan file yg tersimpan di direktori kalian </p>
-catatan :
-jika file rockyou.txt blm ada kalian bisa ektrak dlu file tsb
-cari di direktori /usr/share/wordlist/
+catatan :</p>
+jika file rockyou.txt blm ada kalian bisa ektrak dlu file tsb</p>
+cari di direktori /usr/share/wordlist/</p>
 
 tunggu beberapa saat aircrack mengidentifikasi sandi </p>
 hasil crack sandi berbeda-beda tergantung kesulitannya</p>
 semakin rumit sandi itu akan semakin lama </p>
 apalagi sandi tsb di atas 10 karakter dan angka</p> 
-jadi jangan berharap itu bs berhasil cepat dan sempurna...
+jadi jangan berharap itu bs berhasil cepat dan sempurna...</p>
 
 
 
