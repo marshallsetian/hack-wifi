@@ -1,8 +1,9 @@
 # hacking-wifi >>> airmon-ng >>> aerodump-ng >>> aircrack-ng 
 
 sekedar catatan jika lupa </p>
-untuk memulai percobaan harap memakai jaringan wifi kalian terlebih dahulu..
-
+untuk memulai percobaan harap memakai jaringan wifi kalian terlebih dahulu..</p>
+ini bekerja di system os linux </p>
+untuk cara ini secara default menggunakan kali-linux</p>
 ## TUTORIAL HACK WIFI + CRACKING 
 
 untuk membuka ip address ketikkan perintah :
