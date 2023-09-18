@@ -94,7 +94,7 @@ atau bisa membuka dengan doble click di filenya
 opsional : untuk menghidupkan jaringan internet seperti semula :
 
 ```bash
-sudo airmon-ng stop wlan0 - monitor disable
+sudo airmon-ng stop wlan0
 ```
 sekarang kita akan menjalankan program AIRCRACK
 </p>
